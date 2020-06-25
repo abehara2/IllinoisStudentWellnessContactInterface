@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(urlintent);
             }
         });
-        // Turner
+        // Turnerdocs
         Button TurnerWeb = (Button) findViewById(R.id.TurnerWebsite);
         TurnerWeb.setOnClickListener(new View.OnClickListener() {
             @Override
