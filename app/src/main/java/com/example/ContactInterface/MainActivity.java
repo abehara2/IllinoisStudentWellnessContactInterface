@@ -81,28 +81,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(urlintent);
             }
         });
-        //Ashank's Website
-        Button AshankWeb = (Button) findViewById(R.id.AshankWebsite);
-        AshankWeb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String url = "https://abehara2.wixsite.com/mysite";
-                Intent urlintent = new Intent(Intent.ACTION_VIEW);
-                urlintent.setData(Uri.parse(url));
-                startActivity(urlintent);
-            }
-        });
-        //Niviru's Website
-        Button NiviruWeb = (Button) findViewById(R.id.NivWebsite);
-        NiviruWeb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String url = "https://nnw238.wixsite.com/mysite";
-                Intent urlintent = new Intent(Intent.ACTION_VIEW);
-                urlintent.setData(Uri.parse(url));
-                startActivity(urlintent);
-            }
-        });
+//        //Ashank's Website
+//        Button AshankWeb = (Button) findViewById(R.id.AshankWebsite);
+//        AshankWeb.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String url = "https://abehara2.github.io/";
+//                Intent urlintent = new Intent(Intent.ACTION_VIEW);
+//                urlintent.setData(Uri.parse(url));
+//                startActivity(urlintent);
+//            }
+//        });
+//        //Niviru's Website
+//        Button NiviruWeb = (Button) findViewById(R.id.NivWebsite);
+//        NiviruWeb.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String url = "https://niviruw.github.io/";
+//                Intent urlintent = new Intent(Intent.ACTION_VIEW);
+//                urlintent.setData(Uri.parse(url));
+//                startActivity(urlintent);
+//            }
+//        });
         //McKinley Call
         Button McKinleyPhone = (Button) findViewById(R.id.McKinleyCall);
         McKinleyPhone.setOnClickListener(new View.OnClickListener() {
